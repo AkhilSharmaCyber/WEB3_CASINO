@@ -31,7 +31,7 @@
 
 We have talked about Vercel built-in CI/CD, however, we are using [vercel CLI](https://github.com/vercel/examples/tree/main/ci-cd/github-actions) because we want full control of our CI/CD workflow, .yml files has been added for preview (dev branch) and production (main branch), code checks like prettier and linter are run in parallel with vercel build, once both finish successfully our built project is deployed on vercel
 
-Also a separated file for CI has been added in order to test the contracts, it is a very simple version, if you want see something more elaborated that includes linter and prettifier for typescript tests files and solidity contracts together with codechecks for gas report and coveralls for solidity coverage you can check https://github.com/MiguelGGMM/HARDHAT_TEST_TEMPLATE
+Also a separated file for CI has been added in order to test the contracts, it is a very simple version, if you want see something more elaborated that includes linter and prettifier for typescript tests files and solidity contracts together with codechecks for gas report and coveralls for solidity coverage.
 
 ## Previews and videos
 
